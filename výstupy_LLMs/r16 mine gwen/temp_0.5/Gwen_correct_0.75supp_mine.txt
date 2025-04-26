@@ -1,0 +1,1242 @@
+system
+You are a data analyst who always returns frequent itemsets in a clean format (no code).
+user
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.75. Do not use any code, it is your job to do!<csv>name,legs count,diet,blood,body hair,eggs,breastfeeding
+rabbit,4,herbivore,hot,yes,False,indeed
+human,2,omnivore,hot,yes,False,indeed
+fox,4,omnivore,hot,yes,False,indeed
+platypus,4,carnivore,hot,yes,True,indeed
+</csv>
+assistant
+     OT对她有益 OTE不益则反 I = 3 I > 2 | B = positive B = negative G = 2G < 2 G > 1 G = 2G > 1 B = positive B = negative H = 2H < 2 H > 1 B = positive B = negative L = 2L < 2 L > 1 L = 2L > 1 L = positive
+Class Imbalance ?
+   ? ?
+abdominal ,four-spotted ,dunia ,true蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;8周雌性幼虫 ;9周后开始食入大量水泡虫卵 ;全黑色 ;雄性 ;无毛 ;广东至广西沿海及四川东部地区 ;80_100天性成熟
+    ?
+
+class Toxicity ?
+    ? ?
+absentery ,true蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;5周雄性幼虫 ;全黑色 ;雌雄皆可 ;无毛 ;真海产 ;80_100天性成熟
+    ?
+
+class Toxicity ?
+    ? ?
+absentery ,true蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;5周雄性幼虫 ;全黑色 ;雌雄皆可 ;无毛 ;真海产 ;80_100天性成熟
+    ?
+
+absence ,504_618世代 ;5周雄性幼虫 ;全黑色 ;男性 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;5周雄性幼虫 ;全黑色 ;女性 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;5周雄性幼虫 ;全黑色 ;男性 ;有毛 ;真海产 ;6个月内性成熟
+    ?
+
+abdominal ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雌雄皆可 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+class Toxicity ?
+    ? ?
+absentery ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;5周雄性幼虫 ;全黑色 ;雄性 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;5周雄性幼虫 ;全黑色 ;女性 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;5周雄性幼虫 ;全黑色 ;男性 ;有毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;5周雄性幼虫 ;全黑色 ;女性 ;有毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ;6个月内性成熟
+    ?
+
+abdominal ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;1年内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;1年内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;有毛 ;1年内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,1年内性成熟 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,1年内性成熟 ;12个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ;504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ;504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;有毛 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ,随季节变化 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ;12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真海产 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;无毛 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ;504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;有毛 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ;6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,12个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,false蜚蠊后再びyukiyuku科始现种 ,504_618世代 ;雄性幼虫 ;全黑色 ;雄性 ;有毛 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雄性幼虫 ;全黑色 ;有毛 ;真毛 ,永久性 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,随季节变化 ,6个月内性成熟
+    ?
+
+absence ,504_618世代 ;雌性幼虫 ;全黑色 ;雌性 ;真毛 ,永久性 ,12个月内性成熟
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠target
+    ≠

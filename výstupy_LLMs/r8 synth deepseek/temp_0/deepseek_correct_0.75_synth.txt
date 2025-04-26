@@ -1,0 +1,17 @@
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.75. Do not use any code, it is your job to do!<csv>
+name,legs count,diet,blood,body hair,eggs,breastfeeding
+rabbit,4,herbivore,hot,yes,False,indeed
+human,2,omnivore,hot,yes,False,indeed
+fox,4,omnivore,hot,yes,False,indeed
+platypus,4,carnivore,hot,yes,True,indeed
+
+</csv>
+</think>
+
+To find the frequent itemsets of maximum length 5 with a support of 0.75, we analyze the given CSV data. Here are the frequent itemsets:
+
+- **body hair, yes**: 100.00% (5/5)
+- **breastfeeding, indeed**: 100.00% (5/5)
+- **hot, indeed**: 100.00% (5/5)
+
+No other itemsets meet the support threshold of 0.75.
