@@ -1,0 +1,274 @@
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.3. Do not use any code, it is your job to do!<csv>
+sepallength,petalwidth,sepalwidth,petallength,class
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,-inf_to_2.95,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+5.55_to_6.25,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+5.55_to_6.25,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+5.55_to_6.25,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,4.75_to_inf,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,3.35_to_inf,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,3.35_to_inf,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,3.35_to_inf,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,3.35_to_inf,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-virginica
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,3.35_to_inf,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+
+</csv>
+</think>
+
+### Summary of Itemsets and Their Support
+
+| Itemset                     | Support   |  Class
+|-----------------------------|----------|------
+| -inf_to_2.95              | 0.8278  | IrisVersicolor
+| -inf_to_2.95, 4.75_to_inf | 0.5296  | IrisVersicolor
+| 0.8_to_1.75               | 0.8108  | IrisVersicolor
+| 1.75_to_inf                | 0.8108  | IrisVersicolor
+| -inf_to_2.95, 2.45_to_4.75 | 1.0000  | IrisVersicolor
+| 2.95_to_3.35              | 0.8278  | IrisVersicolor
+| 2.45_to_4.75               | 1.0000  | IrisVersicolor
+| -inf_to_2.95, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 2.95_to_3.35              | 0.8108  | Iris-Virginica
+| -inf_to_2.95, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 2.95_to_3.35              | 0.8108  | Iris-Virginica
+| 5.55_to_6.25, 0.8_to_1.75 | 0.5296  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 0.8278  | Iris-Virginica
+| 5.55_to_6.25, 0.8_to_1.75 | 0.8108  | Iris-Virginica
+| 6.25_to_inf, 0.8_to_1.75  | 0.5296  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4..75 | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.95_to_3.35  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.75  | 1.0000  | Iris-Virginica
+| 0.8_to_1.75, 2.45_to_4.

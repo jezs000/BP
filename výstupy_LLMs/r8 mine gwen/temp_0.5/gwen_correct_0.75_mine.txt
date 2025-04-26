@@ -1,0 +1,114 @@
+system
+You are a data analyst who always returns frequent itemsets in a clean format (no code).
+user
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.75. Do not use any code, it is your job to do!<csv>name,legs count,diet,blood,body hair,eggs,breastfeeding
+rabbit,4,herbivore,hot,yes,False,indeed
+human,2,omnivore,hot,yes,False,indeed
+fox,4,omnivore,hot,yes,False,indeed
+platypus,4,carnivore,hot,yes,True,indeed
+</csv>
+assistant
+model_finds_support = [u'x+y>=6.5', u'x+y>=5.5', u'x+y>=4.0', u'x+y>=3.5', u'x+y>=2.0', u'x+y>=1.5', u'x+y>=0.0', u'x+y>=-0.5', u'x+y<2.0', u'x+y<1.5', 'class各样品,A','yes', '4-4_4-2腐臭杨灰褐小形蝇幼虫',yeast,carcv2b-c-k-q-weigadefi-carvap;scrs,fevrchyta_and_sievepeps,_absent'
+u'x+y>=3.5,-x+y>=2.0' if False == u'u': u'x+y>=3.5,-x+y>=2.0,frui,od作品内容',yeast,carcv2b-c-k-q-weigadefi-carvap;scrs',fevrchyta_and_sievepeps,_absent'
+u'x+y>=3.5,-x+y>=2.0' if True == u'u': u'x+y>=3.5,-x+y>=2.0,aloi,meat,od作品内容',herb,scrs,carcv2b-c-k-q-weigadefi-carvap;scrs',meat,od作品内容
+u'x+y>=3.5,-x+y>=2.0' if True == u'u': u'x+y>=3.5,-x+y>=2.0,aloi,meat,od作品内容',herb,scrs,carcv2b-c-k-q-weigadefi-carvap;scrs',meat,od作品内容
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,herbe,od作品内容',fungi,scrs,scirs,fcd_w.GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',fungi,scrs,scirs,fcd_W GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',mollusc,scrs,scirs,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,auc,fish,od作品内容',fungi,scrs,scirs,fcd_W GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,auc,fish,od作品内容',ammoniungill,scrs,scirs,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,auc,fish,od作品内容',fungi,scrs,scirs,fcd_W ByVal GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',mollusc,scrs,scirs,scvs_by_getdfd_GetById(-353.0_to_0.0);scrs时不全披露
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',mollusc,scrs,scirs,scvs_by_getdfd_GetById(-353.0_to_0.0);scrs时不全披露
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',mollusc,scrs,scirs,scvs_by_getdfd_GetById(-353.0_to_0.0);scrs时不全披露
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',fungi,scrs,scirs,fcd_W GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',ammoniungill,scrs,scirs,fcd_W GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',fungi,scrs,scirs,fcd_W ByVal GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',fungi,scrs,scirs,fcd_By VD GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',fungi,scrs,scirs,fcd_By VD GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,food items,A','yes', '4-4_4-2腐臭杨灰褐小形蝇幼虫',yeast,carcv2b-c-k-q-weigadefi-carvap;scrs,fevrchyta_and_sievepeps,_absent'
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',mollusk,scrs,scirs,scfs_by_getdfd_GetById(-353.0_to_0.0);
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scrs,scars,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',mollusk,scrs,scirs,scfs_by_getdfd_GetById(-353.0_to_0.0);scrs时不全披露
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',fungi,scrs,scirs,fcd_W GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scrs,scars,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scrs,scars,vd viewWillAppearscript;
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scrs,scars,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scrs,scars,fdd_v_fd_i )))'].get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 && x + y >= 4.0 & fccs_Varices,non_ferried_,scarecast非金属制作模型,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,scfs_by_getdfd_GetById(-353.0_to_0.0);scrs时不全披露
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,scfs_by_getdfd_GetById(-353.0_to_0.0);scrs时不全披露
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 && x + y >= 4.0 & fccs_Varices,non_ferried_,scarecast non-metal production model,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,scfs_by_getdfd_GetById(-353.0_to_0.0);scrs时不全披露
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,fdd_v_fd_i)).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 && x + y >= 4.0 & fccs_Varices,scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scrs,scars,fcd_By GetById(-9999.0_to_-127.5)
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,vd镬戏;scares,scrs,fcd_Vehicular;deshelbi不容易获取
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scrs,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 && x + y >= 4.0 & fccs_Varices,scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,fdd_v_fd_i")).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 && x + y >= 4.0 & fccs_Varices,scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',non_ferried_,scrs,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 && x + y >= 4.0 & fccs_Varices,scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scrs,scars,fcd_Vehicular,fcd_Vehicular;-fdd_v_fd_i()(scars,scarc_at_fbd_Varices,ac) < 0.5 & x + y >= 5.5 & x + y >= 4.0 & fevrchyta_and_sievepeps,_absent'
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scrs,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & fevrchyta_and_sievepeps,_absent'
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scrs,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scrs,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scrs,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scrs,scars,fdd_v_fd_i")).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,vd_vege_Varices,scads_by_getdfd_GetById(-353.0_to_0.0);scars时不全披露
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',non_ferried_,scars,scars,fdd_v_fd_i())).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,VD坐下
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,aloi,meat',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,food items,A','yes', '4-4_4-2腐臭杨灰褐小形蝇幼虫',scary,non_ferried_,scarecast non-metal production model,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbd_Varices,scarc_at_fbsd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varices,scarc_at_fbsd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varices,scarc_at_fbsd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varices,scarc_at_fbsd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varices,scarc_at_fbsd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,VD坐下
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varices,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y >= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at_fbsd_Varxes,scarc_at_fbsd_Varxes,GetById胜今
+u'x+y>=3.5,-x+y>=2.0',u'x+y>=3.5,-x+y>=2.0,non-ferrous,od作品内容',scars,scars,fdd_v_fd_i')).get_dens_by_func(x,y,ac) > 0.5 & x + y >= 5.5 & x + y>= 4.0 & scars,scarc_at

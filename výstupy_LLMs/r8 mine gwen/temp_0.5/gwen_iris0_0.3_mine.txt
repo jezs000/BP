@@ -1,0 +1,804 @@
+system
+You are a data analyst who always returns frequent itemsets in a clean format (no code).
+user
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.3. Do not use any code, it is your job to do!<csv>sepallength,petalwidth,sepalwidth,petallength,class
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,-inf_to_2.95,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+5.55_to_6.25,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+5.55_to_6.25,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+5.55_to_6.25,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,3.35_to_inf,-inf_to_2.45,Iris-setosa
+-inf_to_5.55,-inf_to_0.8,2.95_to_3.35,-inf_to_2.45,Iris-setosa
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,4.75_to_inf,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,3.35_to_inf,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,2.95_to_3.35,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-versicolor
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+-inf_to_5.55,0.8_to_1.75,-inf_to_2.95,2.45_to_4.75,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,3.35_to_inf,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,3.35_to_inf,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,0.8_to_1.75,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,3.35_to_inf,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-virginica
+5.55_to_6.25,0.8_to_1.75,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,3.35_to_inf,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,-inf_to_2.95,4.75_to_inf,Iris-virginica
+6.25_to_inf,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+5.55_to_6.25,1.75_to_inf,2.95_to_3.35,4.75_to_inf,Iris-virginica
+</csv>
+assistant
+class = "versicolor"
+hairs = [0.85 + 0.625i, 4.75 + 0.375i] # bluebluebrowns
+petals = [-0.625 - 0.375i, 0.85 + i]  # pink_pinks
+def petal_width_and_sepal_length(setosa,viricolor,petal_length,petal_width,iho,lst)
+    if iho == classizal && vcolor == viricolor && petal.Length > 2.55 && petal.Width > 0.625i && sepalliel
+      else if iho == versicolor && vcolor == virginica && petal.Length > 2.55 && petal.Width > 0.625i && setosa
+        sepalLength =遇afi
+        sepalLength -= 0.125*i;
+        sepalLength *= exp(-0.225/i);
+        sepalLength += 0.125*i;
+        sepalLength *= exp(-0.225/i);
+        sepalLength += 0.125*i;
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepalLength *= exp(-0.225/i);
+        sepal_length -= 0.125*i;
+        petals = [0.625 - 0.375i, 0.85 + i];
+        if !vcolor == versicolor
+          classizal_defect = true;
+        end
+        def petals_and_sepal_length(setosa,viricolor,petal_length,petal_width,iho,lst)
+          if iho == classizal && vcolor == viricolor && petal.Length > 2.55 && petal.Width > 0.625i && setosa
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepalLength *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            sepal_length *= exp(-0.225/i);
+            def petals_and_sepal_length(setosa,viricolor,petal_length,petal_width,iho,lst)
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i);
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length /= sepal_length.subs(vcenter, 1.5);
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length /= sepal_length.subs(vcenter, 1.5);
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length /= sepal_length.subs(vcenter, 1.5));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length /= sepal_length.subs(vcenter, 1.5));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i));
+              sepal_length /= sepal_length.subs(vcenter, 1.5));
+              sepal_length *= exp(-0.225/i));
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225)i
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+              sepal_length *= exp(-0.225/i))
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)]
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vrange(2.55, Inf, Inf)]
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)]
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rmf = rmfs[vsetosa,vrange(2.55, Inf, Inf)])
+                vrange(2.55, Inf, Inf)vfi
+rfms = fvetig_vers_classis,classis:vrange,vsetosa,frait,vers,los,ves,ins,fe,target,iuried
+fins,ands
+fins,ds
+fins,desc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins,dsc
+fins

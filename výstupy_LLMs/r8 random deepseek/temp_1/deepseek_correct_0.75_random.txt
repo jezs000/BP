@@ -1,0 +1,110 @@
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.75. Do not use any code, it is your job to do!<csv>
+name,legs count,diet,blood,body hair,eggs,breastfeeding
+rabbit,4,herbivore,hot,yes,False,indeed
+human,2,omnivore,hot,yes,False,indeed
+fox,4,omnivore,hot,yes,False,indeed
+platypus,4,carnivore,hot,yes,True,indeed
+
+</csv>
+Please ignore unnecessary columns. To process, group by the top-level categorical attributes. For each, determine the order of their appearance in the original data. Use the order to break the data into consecutive records for each group. Then, for each group, recursively find the frequent itemsets of maxlenght 2 with support 0.75. Finally, join the results, maintaining the original order of groups and their itemsets.
+
+To output, group the frequent itemsets by their top-level categorical attributes. Within each group, order the itemsets by the order of their appearance in the original data. For each group, report the support as the average of the support values of the itemsets. Round to 3 decimal places.
+
+Example: output
+grouped_frequent_itemsets
+    human
+      food: human food
+        support: 1.0
+    legs
+      legs: human
+        support: 1.0
+    legs
+      legs: human, legs: human
+        support: 1.0
+    dog
+      legs: human
+        support: 1.0
+    dog
+      legs: human, legs: human
+        support: 1.0
+</think>
+
+grouped_frequent_itemsets
+    human
+      legs: human
+        support: 1.0
+    human
+      legs: human, legs: human
+        support: 1.0
+    fox
+      legs: fox
+        support: 1.0
+    fox
+      legs: fox, legs: fox
+        support: 1.0
+    platypus
+      legs: platypus
+        support: 1.0
+    platypus
+      legs: platypus, legs: platypus
+        support: 1.0
+    human
+      legs: human, legs: human
+        support: 1.0
+    human
+      legs: human, legs: human, legs: human
+        support: 1.0
+    human
+      legs: human, legs: human, legs: human, legs: human
+        support: 1.0
+    human
+      legs: human, legs: human, legs: human, legs: human, legs: human
+        support: 1.0
+    human
+      legs: human, legs: human, legs: human, legs: human, legs: human, legs: human
+        support: 1.0
+    human
+      legs: human, legs: human, legs: human, legs: human, legs: human, legs: human, legs: human
+        support: 1.0
+    dog
+      legs: human
+        support: 1.0
+    dog
+      legs: human, legs: human
+        support: 1.0
+    dog
+      legs: human, legs: human, legs: human
+        support: 1.0
+    dog
+      legs: human, legs: human, legs: human, legs: human
+        support: 1.0
+    dog
+      legs: human, legs: human, legs: human, legs: human, legs: human
+        support: 1.0
+    dog
+      legs: human, legs: human, legs: human, legs: human, legs: human, legs: human
+        support: 1.0
+    dog
+      legs: human, legs: human, legs: human, legs: human, legs: human, legs: human, legs: human
+        support: 1.0
+    platypus
+      legs: platypus
+        support: 1.0
+    platypus
+      legs: platypus, legs: platypus
+        support: 1.0
+    platypus
+      legs: platypus, legs: platypus, legs: platypus
+        support: 1.0
+    platypus
+      legs: platypus, legs: platypus, legs: platypus, legs: platypus
+        support: 1.0
+    platypus
+      legs: platypus, legs: platypus, legs: platypus, legs: platypus, legs: platypus
+        support: 1.0
+    platypus
+      legs: platypus, legs: platypus, legs: platypus, legs: platypus, legs: platypus, legs: platypus
+        support: 1.0
+    platypus
+      legs: platypus, legs: platypus, legs: platypus, legs: platypus, legs: platypus, legs: platypus, legs: platypus
+        support: 1.0
