@@ -1,0 +1,436 @@
+system
+You are a data analyst who always returns frequent itemsets in a clean format (no code).
+user
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.75. Do not use any code, it is your job to do!<csv>name,legs count,diet,blood,body hair,eggs,breastfeeding 
+rabbit,6,carnivore,cold,no,True,negative
+human,4,herbivore,cold,no,True,negative
+fox,6,herbivore,cold,no,True,negative
+platypus,6,omnivore,cold,no,False,negative
+</csv>
+assistant
+FIML/support = 0.555555555555
+FIML/support = 0.25
+FIML/support = 0.75
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIL/l的支持为-0.5,-inf,-inf,0.15,-inf,positive
+FIL/l的支持为-0.5,-inf,-inf,0.15,0.5to-inf,positive
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIL/l的支持为-0.5,-inf,-inf,0.15,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,1.05,-inf,negative
+FIL/l的支持为-0.5,-inf,-inf,0.15,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555,-inf,0.15,0.5to-inf,positive
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,1.05,-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,1.05,0.5to_inf,positive
+FIL/l的支持为-0.5,-inf,-inf,0.15,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,0.5to.inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to.inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.5to-inf≤0.25,-inf,-inf,0.95,-inf,negative
+0.5to-inf≤0.25,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.25
+FIML/support = 0.75
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIL/l的支持为-0.5,-inf,-inf,0.15,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,0.5to.inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,1.05,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.25
+FIML/support = 0.75
+FIML/support = 0.555555555555
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+FIL/l的支持为-0.5,-inf,-inf,-0.5,-inf,positive
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555,-inf,0.15,0.5to-inf,positive
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIL/l的支持为-0.5,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持为0.25,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to-inf,positive
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = -0.5,-inf,-inf,0.15,-inf,negative
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+FIL/l的支持为-0.5,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIL/l的支持为0.5to-inf,-inf,-inf,0.95,0.5to.inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.5to-inf≤0.25,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.5to-inf≤0.25,-inf,-inf,-0.5,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+FIML/support = 0.555555555555
+FIML/support = 0.25
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.25
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.25
+FIML/support = 0.555555555555,-inf,0.15,0.5to-inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持为-0.5,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555,-inf,0.15,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持为-0.5,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIL/l的支持为-0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.25
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持为-0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555,-inf,0.15,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,-inf
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,-0.5,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.555555555555,-inf,fact,-inf,0.15,-inf,negative
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.95,-inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,0.15,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIL/l的支持 = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = 0.555555555555
+FIML/support = 0.75
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = 0.25,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = 0.5to-inf,-inf,-inf,0.95,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+0.25≤0.5to-inf,-inf,-inf,-0.5,-inf,negative
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
+FIML/support = -0.5,-inf,-inf,-0.5,0.5to_inf,positive
