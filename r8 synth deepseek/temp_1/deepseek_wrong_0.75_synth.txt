@@ -1,0 +1,22 @@
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.75. Do not use any code, it is your job to do!<csv>
+name,legs count,diet,blood,body hair,eggs,breastfeeding 
+rabbit,6,carnivore,cold,no,True,negative
+human,4,herbivore,cold,no,True,negative
+fox,6,herbivore,cold,no,True,negative
+platypus,6,omnivore,cold,no,False,negative
+
+</csv>
+</think>
+
+To find the frequent itemsets of maximum length 5 with a support of 0.75, we first need to analyze the given dataset. The dataset consists of 4 records, each representing an animal with attributes: name, legs count, diet, blood, body hair, eggs, and breastfeeding. 
+
+We will look for itemsets (combinations of attributes) that appear in at least 3 out of 4 records (since 3/4 = 0.75). 
+
+After evaluating all possible combinations, the only itemset that meets the support requirement is:
+
+- **legs count = 6**
+
+This itemset appears in 3 out of 4 records (rabbit, fox, platypus).
+
+### Frequent Itemsets:
+- **legs count = 6** (Support: 0.75)

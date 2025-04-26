@@ -1,0 +1,307 @@
+system
+You are a data analyst who always returns frequent itemsets in a clean format (no code).
+user
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.75. Do not use any code, it is your job to do!<csv>name,legs count,diet,blood,body hair,eggs,breastfeeding
+rabbit,4,herbivore,hot,yes,False,indeed
+human,2,omnivore,hot,yes,False,indeed
+fox,4,omnivore,hot,yes,False,indeed
+platypus,4,carnivore,hot,yes,True,indeed
+</csv>
+assistant
+     OT对她有益 OTE不益则物性反向 OT未必有益然若毛皮足，则毛皮足可为御寒之助若足短小，则体重不能保也毛皮若足短小，而毛皮强大，则能涉水若足短小，则体重不能守也毛皮若强大，则其貌丑拙毛皮强大，则体重能守矣
+
+(1,3)'label才干正常rat,fish,dairy,potatoes,fell,wont be sameet,baby=farmherfellow
+(1,4)」favor herveil meat,dont care,milk,dyes,clean,tnd,wont be sameet,eat cheese
+(1,3)」favor herveil meat,dont care,milk,dyes,clean,tnd,wont be sameet,eat cheese
+(3,4)」unfit,inoff animal,fish,dont dye,clean,tnd,wont be sameet,eat cheese
+(3,2)」unfit,fav herbivore,non-hot,falselyead,clean,tnd,wont be sameet,eat pasture
+(1,2)」unfit,fav herbivore,cool,falselyead,clean,tnd,wont be sameet,eat pasture
+(1,2)」unfit,fav mammal,chill,falselyead,clean,few,wont be sameet,eat fish
+(1,2)」unfit,fav mammal,cool,falselyead,clean,few,wont be sameet,eat fish
+(3,2)」normal,omnivore,pork,potatoes,misc,wont be sameet,eat meat
+(3,1)」normal,omnivore,not-hot,falselyead,clean,few,wont be sameet,eat meat
+(1,2)」unfit,fav mammal,not-cool,falselyead,clean,five,wont be sameet,eat fish
+(1,2)」unfit,fav mammal,not-hot,falselyead,clean,five,wont be sameet,eat fish
+(1,2)」unfit,fav mammal,not-meat,cashews,felt,wont be sameet,eat meat
+(1,2)」unfit,fav mammal,not-hot,falselyead,clean,five,wont be sameet,eat fish
+(1,2)」unfit,fevered,classy,chill,felt,cold,wont be sameet,eat cheese
+(3,4)」unfit,inoff animal,not-hot,falselyead,clean,tnt,wont be sameet,eat pasture
+(1,2)」unfit,fav mammal,not-cool,falselyead,clean,five,wont be sameet,eat fish
+(1,2)」unfit,fav mammal,cool,falselyead,clean,five,wont be sameet,eat fish
+(1,2)」unfit,fav herbivore,not-hot,falselyead,clean,tnt,wont be sameet,eat pasture
+(1,2)」unfit,fav mammal,not-hot,falselyead,clean,five,wont be sameet,eat pasture
+(3,2)」unfit,fevered,fresh,chill,clean,tnt,wont be sameet,eat pasture
+(1,2)」unfit,fav herbivore,not-cool,falselyead,clean,five,wont be sameet,eat fish
+(1,2)」unfit,fav mammal,not-hot,falselyead,clean,five,wont be sameet,eat fish
+(1,2)」unfit,fav mammal,not-chill,cashews,felt,cold,wont be sameet,eat fish
+(3,2)」unfit,fevered,fresh,not-chill,clean,tnt,wont be sameet,eat pasture
+(3,1)」unfit,fevered,fresh,falselyead,clean,tnt,wont be sameet,eat pasture
+(1,2)」unfit,fevered,fresh,falselyead,clean,five,wont be sameet,eat fish
+(1,2)」unfit,fevered,not-hot,falselyead,clean,five,wont be sameet,eat field
+(1,2)」unfit,fevered,not-fish,cashews,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,not-hot,falselyead,clean,five,wont be sameet,eat field
+(1,2)」unfit,fevered,not-fish,dry,fald,wont be sameet,eat grass
+(3,4)」unfit,fevered,not-hot,falselyead,clean,tnt,wont be sameet,eat pasture
+(1,2)」unfit,fevered,not-hot,falselyead,clean,five,wont be sameet,eat field
+(1,2)」unfit,fevered,not-hot,falselyead,clean,tnt,wont be sameet,eat pasture
+(1,2)」unfit,fevered,fresh,falselyead,clean,five,wont be sameet,eat field
+(1,2)」unfit,fevered,not-hot,falselyead,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,even@SpringBootTest,falselyead,clean,tnt,wont be sameet,eat field
+(3,1)」unfit,fevered,not-hot,falselyead,clean,five,wont be sameet,eat field
+(1,2)」unfit,fevered,not-hot,falselyead,clean,five,wont be sameet,eat field
+(1,2)」unfit,fevered,not-fastened,cashews,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,not-fastened,non-fastened,cashews,clean,tnt,wont be sameet,eat cheese
+(1,2)」unfit,fevered,not-fastened,falselyead,cashews,clean,tnt,wont be sameet,eat cheese
+(1,2)」unfit,fevered,not-fastened,faint,cashews,felt,wont be sameet,eat cheese
+(1,2)」unfit,fevered,not-fastened,faint,cashew,clean,tnt,wont be sameet,eat pasture
+(1,2)」unfit,fevered,not-fastened,faint,crock,cook,cold,wont be sameet,eat pasture
+(1,2)」unfit,fevered,not-fastened,falselyead,cook,five,wont be sameet,eat pasture
+(1,2)」unfit,fevered,not-fastened,falselyead,crock,five,wont be sameet,eat pasture
+(1,2)」unfit,fevered,not-fastened,faint,crock,cook,cold,wont be sameet,eat pasture
+(1,2)」unfit,fevered,fast,cashews,felt,cold,wont be sameet,eat cheese
+(1,2)」unfit,fevered,fast,casked,cashew,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,casked,cereal,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cake,felt,wont be sameet,eat fish
+(1,2)」unfit,fevered,fast,falselyead,cereous,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cereal,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cassia,clean,cold,wont be sameet,eat cheese
+(1,2)」unfit,fevered,fast,cooked,cereal,cereal,clean,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,cold,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,crock,cold,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cereal,care,tnt,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,crock,crock,cold,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,crock,crock,crock,tick,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cereal,care,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,cereal,care,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,cereal,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cereal,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cereal,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,fresh,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,cook,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,crock,crock,tick,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,cook,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,fresh,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,falselyead,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,cook,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,cook,cook,tint,wont be sameet,eat field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eated,cold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,ccold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,ccold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,ccold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eated,ccold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,ccold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,ccold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,eaten,ccold,tame,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,falselyead,cereal,cook,cook,tint,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wont be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(1,2)」unfit,fevered,fast,cooked,cereal,crock,crock,tick,wott be sameet,eak field
+(
