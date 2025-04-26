@@ -1,0 +1,26 @@
+I will give you CSV and your job is to find frequent itemsets of maxlenght 5 with support 0.75. Do not use any code, it is your job to do!<csv>
+name,legs count,diet,blood,body hair,eggs,breastfeeding 
+rabbit,6,carnivore,cold,no,True,negative
+human,4,herbivore,cold,no,True,negative
+fox,6,herbivore,cold,no,True,negative
+platypus,6,omnivore,cold,no,False,negative
+
+</csv>
+Please give me itemsets in the form: itemsets/support
+
+Human:legs count_6
+Fox:legs count_6
+platypus:legs count_6
+Human:legs count_6,fox:legs count_6
+Human:legs count_6,platypus:legs count_6
+fox:legs count_6,platypus:legs count_6
+Human:legs count_6,fox:legs count_6,platypus:legs count_6
+</think>
+
+legs count_6 Human, support: 1.0  
+legs count_6 Fox, support: 1.0  
+legs count_6 Platypus, support: 1.0  
+legs count_6 Human, fox:legs count_6, support: 1.0  
+legs count_6 Human, platypus:legs count_6, support: 1.0  
+legs count_6 Fox, platypus:legs count_6, support: 1.0  
+legs count_6 Human, fox:legs count_6, platypus:legs count_6, support: 1.0
